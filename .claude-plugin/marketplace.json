@@ -1,0 +1,27 @@
+{
+  "name": "claude-code-enterprise-basic",
+  "owner": {
+    "name": "ybalbert001"
+  },
+  "metadata": {
+    "description": "Custom Claude Code plugins for enterprise and AWS utilities"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-ent-comm-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ybalbert001/claude-code-ent-comm-plugin.git"
+      },
+      "description": "Claude Code plugin for common enterprise functions, like langfuse integration hook."
+    },
+    {
+      "name": "claude-code-aws-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ybalbert001/claude-code-aws-skills.git"
+      },
+      "description": "Claude Code plugin for utils functions, like excalidraw, agentcore-browser, slidev-ppt skills."
+    }
+  ]
+}

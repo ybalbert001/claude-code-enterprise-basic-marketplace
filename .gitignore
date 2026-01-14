@@ -1,0 +1,18 @@
+# npm cache
+_cacache/
+
+# Log files
+_logs/
+
+# npm update notifier
+_update-notifier-last-checked
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
